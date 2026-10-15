@@ -7,7 +7,7 @@ const scriptStart = html.indexOf('<script>');
 const scriptEnd = html.lastIndexOf('</script>');
 
 const newScript = `<script>
-const API_URL = 'http://localhost:5000/api';
+const API_URL = "https://bakend-m2oh.onrender.com";
 
 const ISSUE_TYPES = ["Garbage Dump","Overflowing Bin","Open Defecation Spot","Construction Debris","Drainage Blockage","Dead Animal","Other"];
 const STATUS_LABEL = {pending:"Pending", assigned:"Assigned", in_progress:"In Progress", resolved:"Resolved"};
